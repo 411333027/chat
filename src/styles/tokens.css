@@ -1,0 +1,54 @@
+/* 設計變數：docs/design.md 第 3 節。元件裡只引用變數名，不直接寫色碼。 */
+:root {
+  --bg-page: #e8e4df;
+  --bg-surface: #f2efea;
+  --bg-raised: #ddd7d0;
+  --bg-placeholder: #d2ccc4;
+  --line: #d6d0c8;
+  --line-strong: #c8c1b8;
+  --border-input: #b5aea5;
+  --scrim: #c9c2b9;
+
+  --ink: #3a3836;
+  --ink-2: #55514e;
+  --muted: #5f5b56;
+  --faint: #8f8a84;
+
+  --accent: #5a6e82;
+  --on-accent: #f5f1ea;
+  --on-accent-muted: #edf0f2;
+  --accent-border: #8fa0b1;
+
+  --danger: #a4504a;
+  --danger-bg: #e8d3cf;
+  --danger-on-accent: #f0c4bc;
+  --danger-on-accent-border: #d6a9a2;
+
+  --mention: #b7767e;
+  --mention-bg: #e6c4c7;
+  --mention-ink: #6b2f38;
+
+  --warn: #7d6530;
+  --warn-bg: #e8ddc0;
+  --online: #6e9a80;
+
+  --font: 'Noto Sans TC', system-ui, -apple-system, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+
+  --radius-bubble: 16px;
+  --radius-tail: 4px;
+  --radius-btn: 10px;
+  --radius-field: 12px;
+  --radius-card: 16px;
+
+  --header-h: 60px;
+  --sidebar-w: 300px;
+  --tap: 44px;
+
+  --shadow-float: 0 4px 16px rgba(20, 30, 50, 0.18);
+}
+
+@media (min-width: 860px) {
+  :root {
+    --header-h: 64px;
+  }
+}
